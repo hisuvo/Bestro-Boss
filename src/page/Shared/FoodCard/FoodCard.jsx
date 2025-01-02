@@ -12,7 +12,8 @@ export default function FoodCard({ food }) {
       />
       <div className="flex flex-col justify-between p-6 space-y-8">
         <div className="space-y-2 flex-grow">
-          <h2 className="text-lg font-semibold tracking-wide">
+          <h1 className="text-xl font-semibold">{name}</h1>
+          <h2 className="text-lg font-light tracking-wide">
             {recipe.slice(0, 80)}
           </h2>
         </div>

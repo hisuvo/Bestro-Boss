@@ -18,20 +18,46 @@ export default function Menu() {
 
   return (
     <div>
-      <Poster bgImg={bannerImg} Title={"OUR MENU"} />
+      <Poster
+        bgImg={bannerImg}
+        Title={"OUR MENU"}
+        subTitle={"Would you like to try a dish?"}
+      />
       <ShareTitle handing={"TODAY'S OFFER"} subHading={"---Don't miss---"} />
       <MenuCatagory items={offered} />
 
-      <Poster bgImg={dessertImg} Title={"DESSERTS"} />
+      <Poster
+        bgImg={dessertImg}
+        Title={"DESSERTS"}
+        subTitle={`Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`}
+      />
       <MenuCatagory items={desserts} />
 
-      <Poster bgImg={pizzaImg} Title={"PIZZA"} />
+      <Poster
+        bgImg={pizzaImg}
+        Title={"PIZZA"}
+        subTitle={
+          "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+      />
       <MenuCatagory items={pizzas} />
 
-      <Poster bgImg={saladImg} Title={"SALADS"} />
+      <Poster
+        bgImg={saladImg}
+        Title={"SALADS"}
+        subTitle={
+          "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+      />
       <MenuCatagory items={salads} />
 
-      <Poster bgImg={soupImg} Title={" SOUPS"} />
+      <Poster
+        bgImg={soupImg}
+        Title={" SOUPS"}
+        subTitle={
+          "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+      />
       <MenuCatagory items={soups} />
     </div>
   );
