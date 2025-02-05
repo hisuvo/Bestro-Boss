@@ -27,5 +27,20 @@ Bestro Boss is a food selling platform designed to offer a seamless online order
 
 ## Firebase or Vercel (for deployment)
 
+## Prerequisites:
+
+Make sure you have the following installed on your system:
+- Node.js (with npm)
+- MongoDB (if running locally or you can use MongoDB Atlas)
+- Git (for cloning the repository)
+
+## Step-by-Step Guide:
+1. Clone the Repository:
+   - Clone the project repository from GitHub
+
+       git clone https://github.com/yourusername/bestro-boss.git
+
+  
+
 ## live project links : https://bistro-boss-57a05.web.app/
 
