@@ -37,10 +37,12 @@ Make sure you have the following installed on your system:
 ## Step-by-Step Guide:
 1. Clone the Repository:
    - Clone the project repository from GitHub
+     
              git clone https://github.com/yourusername/bestro-boss.git
      
 2. Navigate to Project Folder:
    - Move into the project directory
+     
             cd bestro-boss
 
   
