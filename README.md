@@ -12,11 +12,11 @@ Bestro Boss is a food selling platform designed to offer a seamless online order
 - HTML, CSS, and JavaScript
 - React.js (for building dynamic, responsive user interfaces)
 - TailwindCSS (for styling and creating responsive layouts)
-- 
+  
 ## Backend:
 - Node.js (server-side JavaScript runtime)
 - Express.js (web framework for building APIs)
-- 
+  
 ## Database:
 - MongoDB (NoSQL database for storing user data, orders, and menus)
 - Payment Integration: Stripe or PayPal (for secure payment processing)
@@ -25,4 +25,7 @@ Bestro Boss is a food selling platform designed to offer a seamless online order
 - JWT (for user authentication and session management)
 - Hosting & Deployment:
 
-## Firebase or Vercel (for frontend deployment)
+## Firebase or Vercel (for deployment)
+
+## live project links : https://bistro-boss-57a05.web.app/
+
