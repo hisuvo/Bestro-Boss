@@ -39,6 +39,7 @@ Make sure you have the following installed on your system:
    - Clone the project repository from GitHub
      
              git clone https://github.com/yourusername/bestro-boss.git
+             git clone https://github.com/hisuvo/bestro-server.git
      
 2. Navigate to Project Folder:
    - Move into the project directory
@@ -46,9 +47,6 @@ Make sure you have the following installed on your system:
             cd bestro-boss
 
 3. Install Frontend Dependencies:
-   - Move into the project directory
-     
-            cd bestro-boss
 
  -Install the required dependencies:
  
@@ -57,11 +55,12 @@ Make sure you have the following installed on your system:
 4. Install Backend Dependencies:
    - Navigate to the backend folder
      
-            cd ../backend
+            cd bestro-server
 
  -Install the required dependencies:
  
           npm install
+          
 5. Setup Environment Variables:
    - Create a .env file in the backend folder to store sensitive information like your MongoDB URI and Stripe
    - Example .env file:
@@ -74,29 +73,7 @@ Make sure you have the following installed on your system:
    running MongoDB:
  
           mongod
-7. Run the Backend Server:
-   - Navigate to the backend folder:
-     
-            cd backend
 
- -Install the required dependencies:
- 
-          npm start
- - This should start your backend server on a port like http://localhost:5000.
-
-8. Run the Frontend:
- - Navigate to the frontend folder (if not already there):
-   
-        cd ../frontend
-   
- - Start the frontend development server:
-
-        npm start
-   
- - This will run the frontend on a port like http://localhost:3000.
- - 
-9. Access the Website:
--  Open your browser and visit http://localhost:3000 to see the website running locally.
    
 ## live project links : https://bistro-boss-57a05.web.app/
 
